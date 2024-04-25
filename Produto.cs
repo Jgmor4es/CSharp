@@ -74,7 +74,7 @@ public class Acessorio: Produto{
     }
 }
 
-ublic class Colecionavel: Produto{
+public class Colecionavel: Produto{
     private string edicaolimitada;
 
     //Construtor da classe Colecionavel

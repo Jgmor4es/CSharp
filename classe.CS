@@ -139,7 +139,7 @@ class Program{
         Console.WriteLine($"Inteligencia: {batman. GetInteligencia()}");
         Console.WriteLine($"Armas e Equipamentos: {string. Join(", ", batman. GetArmasEquipamentos ())}");
         Console.WriteLine("");
-        Console.WriteLine("-----------------------------------------------------------------------------")
+        Console.WriteLine("-----------------------------------------------------------------------------");
         Console.WriteLine("");
         // Criando um objeto(coringa) da classe Personagem
         Personagem coringa = new Personagem("Coringa", 1, 0, 100, 70, 65, 85, new string[] {
@@ -155,7 +155,7 @@ class Program{
         Console.WriteLine($"Inteligencia: {coringa. GetInteligencia()}");
         Console.WriteLine($"Armas e Equipamentos: {string. Join(", ", coringa. GetArmasEquipamentos())}");
         Console.WriteLine("");
-        Console.WriteLine(" -------------------------------------------------------------------------------")
+        Console.WriteLine(" -------------------------------------------------------------------------------");
         Console.WriteLine("");
 
         //Batman movendo
@@ -176,7 +176,7 @@ class Program{
         // Coringa ganha pontos
         coringa. SetPontuacao(30);
         Console.WriteLine($"Pontuacao do Coringa: {coringa. GetPontuacao()}");
-        Batman usando uma habilidade
+        Batman usando uma habilidade;
         batman. UsarHabilidade("Ultra Bat-Garra", coringa);
         // Coringa Morrendo
         coringa.ReceberDano(999); // Para simular a morte
